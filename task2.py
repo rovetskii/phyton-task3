@@ -1,0 +1,5 @@
+print("enter string")
+s = input()
+print("first symbol:"+ s[0]+ "\n")
+print("first symbol:"+ s[len(s)//2+1]+ "\n")
+print("last symbol:"+s[-1])
